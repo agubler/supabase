@@ -34,7 +34,7 @@ final error = res.error;
 - If you provide `email` without a `password`, the user will be sent a magic link.
 - The magic link's destination URL is determined by the SITE_URL config variable. To change this, you can go to Authentication -> Settings on [app.supabase.com](https://app.supabase.com)
 - Similarly, if you provide `phone` without a `password`, the user will be sent a one time password.
-- If you are looking to sign users in with OAuth in Flutter apps, go to [`signInWithProvider()`](/docs/reference/dart/auth-signinwithprovider).
+- If you are looking to sign users in with OAuth in Flutter apps, go to [`signInWithOAuth()`](/docs/reference/flutter/auth-signinwithoauth).
 
 ## Examples
 
@@ -82,7 +82,7 @@ final error = res.error;
 ### Get OAuth sign in URL.
 
 Passing provider parameter to `signIn()` will return a URL to sign your user in via OAuth.
-If you are looking to sign in a user via OAuth on Flutter app, go to [`signInWithProvider()`](/docs/reference/dart/auth-signinwithprovider).
+If you are looking to sign in a user via OAuth on Flutter app, go to [`signInWithOAuth()`](/docs/reference/flutter/auth-signinwithoauth).
 
 <Tabs
   defaultActiveId="dart"

@@ -1361,8 +1361,8 @@ module.exports = [
   // With the rebranding from Dart SDK to Flutter SDK, we changed the URL of dart docs to flutter
   {
     permanent: true,
-    source: '/docs/reference/dart',
-    destination: '/docs/reference/flutter',
+    source: '/docs/reference/flutter/:path*',
+    destination: '/docs/reference/flutter/:path*',
   },
 
   // V2 redirects

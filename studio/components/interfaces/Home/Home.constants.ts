@@ -17,7 +17,7 @@ export const CLIENT_LIBRARIES = [
     language: 'Flutter',
     officialSupport: false,
     releaseState: undefined,
-    docsUrl: 'https://supabase.com/docs/reference/dart/installing',
+    docsUrl: 'https://supabase.com/docs/reference/flutter/installing',
     gitUrl: 'https://github.com/supabase/supabase-flutter',
   },
 ]

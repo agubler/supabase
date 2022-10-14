@@ -219,7 +219,7 @@ extension ShowSnackBar on BuildContext {
 
 ### Step 2: Initialize Supabase
 
-In order to use Supabase, we need to [initialize](https://supabase.com/docs/reference/dart/initializing#flutter-initialize) it at the top of the main function. Let’s edit the main.dart file so that we can initialize Supabase. Note that within the build method of MyApp, we are loading the theme data created in the `constants.dart` file and the home is set to SplashPage(), which we will create in later sections.
+In order to use Supabase, we need to [initialize](https://supabase.com/docs/reference/flutter/initializing#flutter-initialize) it at the top of the main function. Let’s edit the main.dart file so that we can initialize Supabase. Note that within the build method of MyApp, we are loading the theme data created in the `constants.dart` file and the home is set to SplashPage(), which we will create in later sections.
 
 You can find your Supabase URL and Supabase anon key under settings -> API in your dashboard.
 
@@ -609,7 +609,7 @@ class _LoginPageState extends State<LoginPage> {
 
 ### Step 7: Create a chat page to receive and send real time messages
 
-Last, we create the Chat page. This page will load the messages in real time and display them to the users. Users will also be able to send messages to everyone else using the app. We are using the [stream()](https://supabase.com/docs/reference/dart/stream) method on Supabase SDK to load the messages in realtime. As those messages come in, we are lazily loading the profiles of each message’s sender. We will display the user icon as soon as their profile data is available.
+Last, we create the Chat page. This page will load the messages in real time and display them to the users. Users will also be able to send messages to everyone else using the app. We are using the [stream()](https://supabase.com/docs/reference/flutter/stream) method on Supabase SDK to load the messages in realtime. As those messages come in, we are lazily loading the profiles of each message’s sender. We will display the user icon as soon as their profile data is available.
 
 ```dart title="lib/pages/chat_page.dart"
 import 'dart:async';

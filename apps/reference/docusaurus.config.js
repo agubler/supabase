@@ -85,7 +85,7 @@ const config = {
       {
         id: '_supabase_dart',
         path: '_supabase_dart',
-        routeBasePath: '/reference/dart',
+        routeBasePath: '/reference/flutter',
         sidebarPath: require.resolve('./nav/supabase_dart_sidebars.js'),
         breadcrumbs: false,
         editUrl:
