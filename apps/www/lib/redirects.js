@@ -1358,6 +1358,12 @@ module.exports = [
     source: '/docs/reference/auth-helpers/sveltekit',
     destination: '/docs/guides/auth/auth-helpers/sveltekit',
   },
+  // With the rebranding from Dart SDK to Flutter SDK, we changed the URL of dart docs to flutter
+  {
+    permanent: true,
+    source: '/docs/reference/dart',
+    destination: '/docs/reference/flutter',
+  },
 
   // V2 redirects
   // {
